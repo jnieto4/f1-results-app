@@ -1,3 +1,44 @@
+# 🏁 F1 Race Results Viewer
+
+A full-stack web application that displays Formula 1 race results from past seasons and provides detailed driver information for each race. Built using **React** for the frontend and **Python (Flask)** for the backend, this project demonstrates API integration, component-based UI, and asynchronous data handling.
+
+## 🚀 Features
+
+- Select any year from 1990 to 2024 and view all races that occurred in that season.
+- Choose a race to view full result data including:
+  - Finishing position
+  - Driver and Constructor details
+  - Grid start, status, and points
+- Hover over any driver for an interactive tooltip with:
+  - Nationality, date of birth, permanent number
+  - Laps completed, fastest lap time and speed
+- Responsive and interactive interface with dynamic loading and error states.
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, JavaScript, HTML/CSS
+- **Backend**: Python, Flask, Flask-CORS
+- **API Source**: [Ergast Developer API](https://ergast.com/mrd/)
+
+## 📷 Screenshots
+
+*You can add screenshots here if you have any!*
+
+## 📦 Project Structure
+
+```bash
+.
+├── client/                  # React frontend
+│   ├── App.js
+│   ├── YearSelect.js
+│   ├── RaceSelect.js
+│   └── f1-logo.png
+├── server/                  # Flask backend
+│   └── app.py
+├── README.md
+
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
