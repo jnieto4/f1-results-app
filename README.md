@@ -20,10 +20,6 @@ A full-stack web application that displays Formula 1 race results from past seas
 - **Backend**: Python, Flask, Flask-CORS
 - **API Source**: [Ergast Developer API](https://ergast.com/mrd/)
 
-## 📷 Screenshots
-
-*You can add screenshots here if you have any!*
-
 ## 📦 Project Structure
 
 ```bash
